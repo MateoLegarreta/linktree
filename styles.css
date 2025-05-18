@@ -1,0 +1,73 @@
+body {
+    background: #0a07d9;
+    background: radial-gradient(circle, rgba(10, 7, 217, 1) 0%, rgba(4, 4, 186, 1) 35%, rgba(0, 4, 5, 1) 100%);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+.img-mia {
+    width: 200px;
+    height: 210px;
+    border-radius: 50%;
+    
+}
+
+.iconos {
+    width: 30px; 
+    margin-right: 25px; 
+}
+
+.titulo {
+    color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    border-top: 10px;
+    font-size: 25px;
+}
+
+li {
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+.lista {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px auto; /* Esto da separación entre botones */
+        border-radius: 37px;
+        width: 50%;
+        font-size: 20px;
+        font-family: 'Segoe UI';
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: bisque;            
+        box-shadow: 0 0 20px #eee;
+        text-decoration: none;
+        cursor: pointer;
+}
+
+
+.lista-grad {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)
+}
+
+ .lista-grad:hover {
+   background-position: right center; 
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+
+
+
+
+
+
+
